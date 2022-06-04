@@ -1,0 +1,156 @@
+*{
+margin:0;
+padding: 0;
+box-sizing:border-box;
+font-family: "Lato";
+text-decoration:none;
+}
+
+body{
+background-color:#eeeeee;	
+margin:0;
+padding:0;
+display:flex;
+justify-content:center;
+}
+
+.instagram-wraper{
+display:flex;
+align-items:center;
+justify-content:start;
+width:60%;
+height:100vh;
+}
+
+.instagram-phone{
+display:flex;
+align-items:center;
+justify-content:center;
+width:50%;
+}
+
+.instagram-phone img{
+height:100vhg;
+}
+
+.instagram-continue{
+display:flex;
+align-items:center; /*Horizontal */
+justify-content:space-around; /* Vertical */
+flex-direction: column;	
+width:50%;
+min-height:34rem;
+}
+
+.group{
+display:flex;
+justify-content: space-between;
+align-items:center;
+flex-direction:column;
+background:#fce4ec ;
+width:100%;
+padding: 1.3rem 0;
+border: 1px solid lightgray;	
+z-index:999;	
+}
+
+.group:nth-child(1){
+min-height: 19rem;
+}
+
+.instagram-logo{
+height: 3rem;	
+}
+
+.profile-perfil{
+display:flex;
+justify-content:center;
+align-items:center;	
+border-radius:50%;
+overflow:hidden;
+}
+
+.profile-perfil img{
+height:6rem;
+width:6rem;
+}
+
+.instagram-login{
+color: white;
+border-radius:4px;
+padding:8px;
+}
+
+.instagram-loggout{
+color:blue;
+margin-top:1rem;	
+}
+
+.notconta{
+color:rgb(160,160,160);			
+}
+
+
+.link-blue{
+color:blue;	
+}
+
+.get-the-app{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;	
+width:100%;
+padding:1.3rem 0;
+}
+
+.download{
+display:flex;
+width:100%;
+justify-content: space-evelyn;
+align-items:center;
+padding:1rem;
+}
+
+.app-download{
+height:3rem;
+width:50rem;
+background-size:cover;	
+}
+
+.app-download:nth-child(1){
+background-image:url('../img/apple.png');
+}
+
+.app-download:nth-child(2){
+background-image:url('../img/google.png');	
+}
+
+
+
+}
+
+
+@media screen and (max-width: 1024px){
+.instagram-wraper{
+width:50%;	
+}
+
+}
+
+@media screen and (max-width: 890px){
+.instagram-wraper{
+width:90%;	
+}
+
+.instagram-phone{
+display:none;	
+}
+
+.instagram-continue{
+width:100%;	
+}
+
+}
+
+
